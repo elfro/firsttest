@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="com.mytest.webdriver.MyTest" time="51.579" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\USER\IdeaProjects\myFirstApp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\USER\IdeaProjects\myFirstApp"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\USER\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_60bin;C:\Program Files\apache-jmeter-2.6bin;C:\Program Files\Skype\Phone\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files\TortoiseGit\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\USER"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="USER"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="com.mytest.webdriver.MyTest" name="SetUP" time="51.579">
+    <failure message="Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;VKIt-tK0VsCN&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;47.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1467049353479,&quot;updateDate&quot;:1467049353479,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22012,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;47.0.1&quot;,&quot;maxVersion&quot;:&quot;47.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1469002921719	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1469002921720	DeferredSave.extensions.json	DEBUG	Save changes
+1469002921720	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1469002921720	addons.xpi-utils	DEBUG	Updating add-on states
+1469002921720	addons.xpi-utils	DEBUG	Writing add-ons list
+1469002921724	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1469002921725	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1469002921725	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1469002921725	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1469002921726	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1469002921726	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1469002921739	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1469002921739	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1469002921739	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1469002921739	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1469002921739	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1469002921740	addons.manager	DEBUG	Starting provider: GMPProvider
+1469002921743	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1469002921744	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1469002921744	addons.manager	DEBUG	Starting provider: PluginProvider
+1469002921744	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1469002921744	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1469002921744	addons.manager	DEBUG	Completed startup sequence
+1469002924430	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1469002924430	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1469002924431	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1469002924432	DeferredSave.extensions.json	DEBUG	Starting write
+1469002924703	addons.repository	DEBUG	No addons.json found.
+1469002924703	DeferredSave.addons.json	DEBUG	Save changes
+1469002924726	DeferredSave.addons.json	DEBUG	Starting timer
+1469002924991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1469002924991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1469002924991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1469002924993	DeferredSave.extensions.json	DEBUG	Write succeeded
+1469002924994	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1469002924994	DeferredSave.addons.json	DEBUG	Starting write
+1469002925397	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;169.254.15.128&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;VKIt-tK0VsCN&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;47.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1467049353479,&quot;updateDate&quot;:1467049353479,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22012,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;47.0.1&quot;,&quot;maxVersion&quot;:&quot;47.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1469002921719	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1469002921720	DeferredSave.extensions.json	DEBUG	Save changes
+1469002921720	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1469002921720	addons.xpi-utils	DEBUG	Updating add-on states
+1469002921720	addons.xpi-utils	DEBUG	Writing add-ons list
+1469002921724	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1469002921725	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1469002921725	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1469002921725	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1469002921726	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1469002921726	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1469002921739	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1469002921739	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1469002921739	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1469002921739	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1469002921739	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1469002921740	addons.manager	DEBUG	Starting provider: GMPProvider
+1469002921743	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1469002921744	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1469002921744	addons.manager	DEBUG	Starting provider: PluginProvider
+1469002921744	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1469002921744	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1469002921744	addons.manager	DEBUG	Completed startup sequence
+1469002924430	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1469002924430	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1469002924431	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1469002924432	DeferredSave.extensions.json	DEBUG	Starting write
+1469002924703	addons.repository	DEBUG	No addons.json found.
+1469002924703	DeferredSave.addons.json	DEBUG	Save changes
+1469002924726	DeferredSave.addons.json	DEBUG	Starting timer
+1469002924991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1469002924991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1469002924991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1469002924993	DeferredSave.extensions.json	DEBUG	Write succeeded
+1469002924994	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1469002924994	DeferredSave.addons.json	DEBUG	Starting write
+1469002925397	DeferredSave.addons.json	DEBUG	Write succeeded
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;169.254.15.128&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.mytest.webdriver.MyTest.SetUP(MyTest.java:22)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;VKIt-tK0VsCN&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;47.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1467049353479,&quot;updateDate&quot;:1467049353479,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22012,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;47.0.1&quot;,&quot;maxVersion&quot;:&quot;47.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1469002921719	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1469002921720	DeferredSave.extensions.json	DEBUG	Save changes
+1469002921720	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1469002921720	addons.xpi-utils	DEBUG	Updating add-on states
+1469002921720	addons.xpi-utils	DEBUG	Writing add-ons list
+1469002921724	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1469002921725	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1469002921725	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1469002921725	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1469002921726	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1469002921726	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1469002921739	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1469002921739	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1469002921739	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1469002921739	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1469002921739	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1469002921740	addons.manager	DEBUG	Starting provider: GMPProvider
+1469002921743	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1469002921744	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1469002921744	addons.manager	DEBUG	Starting provider: PluginProvider
+1469002921744	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1469002921744	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1469002921744	addons.manager	DEBUG	Completed startup sequence
+1469002924430	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1469002924430	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1469002924431	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1469002924432	DeferredSave.extensions.json	DEBUG	Starting write
+1469002924703	addons.repository	DEBUG	No addons.json found.
+1469002924703	DeferredSave.addons.json	DEBUG	Save changes
+1469002924726	DeferredSave.addons.json	DEBUG	Starting timer
+1469002924991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1469002924991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1469002924991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1469002924993	DeferredSave.extensions.json	DEBUG	Write succeeded
+1469002924994	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1469002924994	DeferredSave.addons.json	DEBUG	Starting write
+1469002925397	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 40 more
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1c5e7b4
+</system-out>
+    <system-err>org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;VKIt-tK0VsCN&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;47.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1467049353479,&quot;updateDate&quot;:1467049353479,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22012,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;47.0.1&quot;,&quot;maxVersion&quot;:&quot;47.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1469002921719	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1469002921720	DeferredSave.extensions.json	DEBUG	Save changes
+1469002921720	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1469002921720	addons.xpi-utils	DEBUG	Updating add-on states
+1469002921720	addons.xpi-utils	DEBUG	Writing add-ons list
+1469002921724	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1469002921725	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1469002921725	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1469002921725	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1469002921726	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1469002921726	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1469002921739	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1469002921739	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1469002921739	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1469002921739	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1469002921739	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1469002921740	addons.manager	DEBUG	Starting provider: GMPProvider
+1469002921743	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1469002921744	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1469002921744	addons.manager	DEBUG	Starting provider: PluginProvider
+1469002921744	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1469002921744	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1469002921744	addons.manager	DEBUG	Completed startup sequence
+1469002924430	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1469002924430	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1469002924431	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1469002924432	DeferredSave.extensions.json	DEBUG	Starting write
+1469002924703	addons.repository	DEBUG	No addons.json found.
+1469002924703	DeferredSave.addons.json	DEBUG	Save changes
+1469002924726	DeferredSave.addons.json	DEBUG	Starting timer
+1469002924991	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1469002924991	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1469002924991	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1469002924993	DeferredSave.extensions.json	DEBUG	Write succeeded
+1469002924994	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1469002924994	DeferredSave.addons.json	DEBUG	Starting write
+1469002925397	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.mytest.webdriver.MyTest.SetUP(MyTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="com.mytest.webdriver.MyTest" name="GotoPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.mytest.webdriver.MyTest" name="CloseDriver" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
