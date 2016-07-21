@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.mytest.webdriver.MyTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.mytest.webdriver.MyTest">
+        <methods>
+          <include name="SetUP"/>
+          <include name="GotoPage"/>
+        </methods>
+      </class> <!-- com.mytest.webdriver.MyTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.mytest.webdriver.MyTest] -->
