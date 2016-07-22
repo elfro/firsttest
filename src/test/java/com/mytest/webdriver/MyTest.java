@@ -1,5 +1,6 @@
 package com.mytest.webdriver;
 
+import com.maps.uiMap;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -30,13 +31,13 @@ public class MyTest {
     @Test
     public void GotoPage(){
 
-        driver.get("https://twitter.com");
+        driver.get(uiMap.URL_HOME);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.findElement(By.id("signin-email")).sendKeys("qatestllc@gmail.com");
-        driver.findElement(By.id("signin-password")).sendKeys("123456");
-        driver.findElement(By.xpath("//*[@id=\"front-container\"]/div[2]/div[2]/form/table/tbody/tr/td[2]/button")).click();
+        driver.findElement(By.id(uiMap.HOME_EMAIL_ID)).sendKeys("qatestllc@gmail.com");
+        driver.findElement(By.id(uiMap.HOME_PASSWORD_ID)).sendKeys("123456");
+        driver.findElement(By.xpath(uiMap.HOME_SIGNIN_XPath)).click();
         String text = driver.findElement(By.className("message-text")).getText();
-        Assert.assertEquals(text,"Введённые адрес электронной почты и пароль не совпадают с сохранёнными в нашей базе данных. Проверьте правильность введённых данных и повторите попытку.");
+        Assert.assertEquals(text,"The email and password you entered did not match our records. Please double-check and try again.");
     }
 
     @AfterClass
