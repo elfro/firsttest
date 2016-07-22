@@ -24,8 +24,9 @@ public class MyTest {
 
     @BeforeClass
     public  void SetUP() {
-        driver=new FirefoxDriver();
-//        driver=new ChromeDriver();
+//        driver=new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\seleniumdrivers\\chromedriver.exe");
+        driver=new ChromeDriver();
     }
 
     @Test
