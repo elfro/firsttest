@@ -1,0 +1,7 @@
+<suite name="First Suite" verbose="1" >
+    <test name="Auth">
+        <classes>
+            <class name="com.mytest.webdriver.MyTest" />
+        </classes>
+    </test>
+</suite>
